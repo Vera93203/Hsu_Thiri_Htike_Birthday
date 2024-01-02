@@ -146,7 +146,7 @@ h2 {
 }
 
 .cardInside {
- position: relative ;
+ position: absolute ;
  background-color: #fff;
  width: 250px;
  height: 350px;
