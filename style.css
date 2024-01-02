@@ -232,7 +232,12 @@ footer a{
   top: 0;
   box-shadow: inset 50px 10px 50px rgba(0, 0, 0, 0.2); /* Adjusted box-shadow for a softer look */
 }
-
+p[contenteditable="true"] {
+  font-size: 16px;
+  line-height: 1.5;
+  font-family: Comic Sans MS;
+  color: #333; /* Replace with your desired text color */
+}
 /* Add this media query for smaller screens (phones) */
 @media only screen and (max-width: 600px) {
   .cardInside {
@@ -254,7 +259,7 @@ footer a{
   }
 
   h4 {
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family: Arial, Helvetica, sans-serif;
     color: #191919;
   }
 
